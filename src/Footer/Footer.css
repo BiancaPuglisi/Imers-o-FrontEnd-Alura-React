@@ -1,0 +1,41 @@
+.footerbar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to right, #ae2896, #509bf5);
+    padding: 30px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerbar .text {
+    flex-shrink: 0;
+}
+
+.footerbar .title {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.footerbar .subtitle {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.footerbar button {
+    background-color: #fff;
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 14px 30px;
+    border: 0px;
+    border-radius: 40px;
+    cursor: pointer;
+    flex-shrink: 0;
+    text-align: center;
+}
